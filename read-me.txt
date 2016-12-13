@@ -1,0 +1,59 @@
+######################################################################################################
+Ipython notebooks and R Scripts:
+######################################################################################################
+Notebooks:
+
+Explore_data - > Initial data exploration 
+
+DataExplorationOriginalTrainTest -> Analysis of kaggle test data to match the competition environment
+
+Data_prepration - > Data preparation for models
+
+Models-on-RawData -> Differnt ML models using original features
+
+Random-Forest-Model-Selection -> All RF models with their results
+
+KNN-Model-Selection- >All the kNN models
+
+KNN-Model-Selection-Large -> KNN on large sample
+
+HierarchicalClustering -> Hierarchiacal Clustering + Random Forest
+
+NaiveBayesAndAdaboost -> Naive Bayes, Adaboost + Logistic Regression
+
+Model_Ensemble - > ensemble of candidate models
+
+Model_Ensemble_GB -> Used GBM model as one of candidate model for ensemble
+
+*** Rscripts::
+
+feature_creation_destination.R -> principal Component analysis method for feature creation
+
+FeatureEngScript2.R : Feature creation using discretization of date, time features, binary features etc
+
+feature-from-booksClicks.R : Feature creation using books and clicks rate based on different parameters
+
+######################################################################################################
+Section 2: Dataset Information
+######################################################################################################
+***1.
+dataSet2013.csv
+dataSet2014.csv
+
+Note: These dataset represents original kaggle data partitioned by year. Due to large size of data we split them into
+two subgroups. For convinent, I already incorporated newly created features and cleaned data is in following files:
+
+FinalTestSet.csv
+FinalTrainingSet.csv
+
+#####################################################
+Tool set up
+######################################################
+
+jupyter notebook --no-browser
+
+proceed to : https://bhd2.rcg.usm.maine.edu:8888/tree
+
+sudo rstudio-server start
+
+http://bhd2.rcg.usm.maine.edu:8787/
